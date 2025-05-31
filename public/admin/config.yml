@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: JoaoTReis/landing-page-lenin
   branch: main
-  site_url: https://lfadvocacia.net
 
 media_folder: public/assets/img
 public_folder: /assets/img
