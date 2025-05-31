@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: JoaoTReis/landing-page-lenin
   branch: main # ajuste se a branch principal for diferente
 
