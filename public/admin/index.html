@@ -1,10 +1,23 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Administração</title>
-  </head>
-  <body>
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>Content Manager</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> <!-- Identity Widget -->
+</head>
+<body>
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script> <!-- Netlify CMS -->
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          // Abre automaticamente o modal de login/signup quando não está logado
+          window.netlifyIdentity.open();
+        }
+      });
+      window.netlifyIdentity.init();
+    }
+  </script>
+</body>
 </html>
