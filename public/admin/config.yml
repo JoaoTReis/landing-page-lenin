@@ -1,6 +1,5 @@
 backend:
   name: git-gateway
-  repo: JoaoTReis/landing-page-lenin
   branch: main # ajuste se a branch principal for diferente
 
 media_folder: public/assets/img
