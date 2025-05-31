@@ -17,15 +17,15 @@ const CategoriasServico = () => {
 
   return (
     <div id="servicos" className="flex flex-col gap-20 bg-[#204659] py-30">
-      <div className="flex pl-8 items-center gap-75">
-        <div className="flex items-center gap-2">
+      <div className="flex pl-64 items-center gap-50">
+        <div className="flex flex-col items-center gap-2">
           <img
             src="/logo_escritorio_lenin.png"
             alt="logo"
             className="flex h-29 w-28"
           />
           <h1 className="text-4xl font-bold text-white pl-4">
-            Felippini Advocacia
+            Filippini Advocacia <br/> OAB RS/127.882
           </h1>
         </div>
         <div className="flex gap-2 relative">
@@ -88,17 +88,24 @@ const CategoriasServico = () => {
             </p>
           </button>
         </div>
-        <div className="flex flex-col self-start w-3/5 pl-55 pt-20 gap-40">
-          <h1 className="text-5xl">
-            Defendemos o que é seu por direito, com seriedade e excelência.
-          </h1>
+        <div className="flex flex-col justify-center pt-20 gap-5">
+          <div className="flex items-center gap-4">
+            <span className=" w-1 h-36 bg-[#CF9645] rounded"></span>
+            <h1 className="text-5xl text-left">
+              Defendemos o que é seu por direito,<br/> com seriedade e excelência.
+            </h1>
+            <span className=" w-1 h-36 bg-[#CF9645] rounded"></span>
+          </div>
+          <div className="flex items-start gap-4">
           <img
-            src="/horario.png"
-            alt="24h"
-            className="h-75 w-75"
+            src="/lenin_mesa.png"
+            alt="imagem_lenin"
+            className="flex w-170 rounded-2xl justify-center ml-12"
           />
+          </div>
         </div>
       </div>
+      <img src="/horario.png" alt="24h" className="h-50 w-50 absolute left-60 bottom-[-2550px]"/>
     </div>
   );
 };
