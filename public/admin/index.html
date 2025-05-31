@@ -3,8 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <title>Content Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Netlify Identity Widget -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!-- Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 </head>
 <body>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> <!-- Identity Widget -->
+  <script>
+    // Inicializa o Netlify Identity Widget
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          // Se não estiver logado, abre modal para login/signup
+          window.netlifyIdentity.open();
+        }
+      });
+      window.netlifyIdentity.init();
+    }
+  </script>
 </body>
 </html>
