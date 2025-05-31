@@ -1,8 +1,12 @@
 backend:
   name: github
   repo: JoaoTReis/landing-page-lenin
-  base_url: https://lfadvocacia.net/
-  auth_endpoint: /api/auth/ # Essa rota vai ser muito importante mais para frente
+  branch: main # ajuste se a branch principal for diferente
+
+media_folder: public/assets/img
+public_folder: /assets/img
+
+publish_mode: editorial_workflow
 
 collections:
   - name: posts
@@ -22,5 +26,5 @@ collections:
           label: 'Categoria',
           name: 'categoria',
           widget: 'select',
-          options: ['direito civil', 'direito penal', 'direito trabalhista'] # edite conforme necessário
+          options: ['direito civil', 'direito penal', 'direito trabalhista']
         }
