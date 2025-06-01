@@ -1,10 +1,8 @@
 backend:
   name: github
   repo: JoaoTReis/landing-page-lenin
-  branch: main
-  auth_scope: repo
-  base_url: https://lfadvocacia.net
-  auth_endpoint: /api/auth
+  base_url: https://www.lfadvocacia.net/
+  auth_endpoint: api/auth/
 
 media_folder: public/assets/img
 public_folder: /assets/img
