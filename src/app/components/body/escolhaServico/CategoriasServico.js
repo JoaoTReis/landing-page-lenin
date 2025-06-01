@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from 'next/image';
 
 // Exemplo de componente que será exibido ao clicar
 const ServicosPrev = () => (
@@ -19,7 +20,7 @@ const CategoriasServico = () => {
     <div id="servicos" className="flex flex-col gap-20 bg-[#204659] py-30">
       <div className="flex pl-64 items-center gap-50">
         <div className="flex flex-col items-center gap-2">
-          <img
+          <Image
             src="/logo_escritorio_lenin.png"
             alt="logo"
             className="flex h-29 w-28"
@@ -29,7 +30,7 @@ const CategoriasServico = () => {
           </h1>
         </div>
         <div className="flex gap-2 relative">
-          <img
+          <Image
             src="/moldura.png"
             alt="moldura"
             className="h-52 w-52 absolute top-[-80px] left-[10px] z-20"
@@ -45,7 +46,7 @@ const CategoriasServico = () => {
             className="flex flex-col gap-5 py-6 px-18 items-center justify-center bg-[#CF9645] rounded-4xl border-3 border-white"
             onClick={() => setAreaSelecionada("previdenciario")}
           >
-            <img
+            <Image
               src="/direito_prev.png"
               alt="imagem_prev"
               className="flex w-32 h-32"
@@ -62,7 +63,7 @@ const CategoriasServico = () => {
             className="flex flex-col gap-5 py-6 px-18 items-center justify-center bg-[#CF9645] rounded-4xl border-3 border-white"
             onClick={() => setAreaSelecionada("previdenciario")}
           >
-            <img
+            <Image
               src="/outros_ramos_direito.png"
               alt="imagem_prev"
               className="flex w-32 h-32"
@@ -75,7 +76,7 @@ const CategoriasServico = () => {
             className="flex flex-col gap-5 py-6 px-18 items-center justify-center bg-[#CF9645] rounded-4xl border-3 border-white"
             onClick={() => setAreaSelecionada("previdenciario")}
           >
-            <img
+            <Image
               src="/direito_criminal.png"
               alt="imagem_prev"
               className="flex w-32 h-32"
@@ -97,7 +98,7 @@ const CategoriasServico = () => {
             <span className=" w-1 h-36 bg-[#CF9645] rounded"></span>
           </div>
           <div className="flex items-start gap-4">
-          <img
+          <Image
             src="/lenin_mesa.png"
             alt="imagem_lenin"
             className="flex w-170 rounded-2xl justify-center ml-12"
@@ -105,7 +106,7 @@ const CategoriasServico = () => {
           </div>
         </div>
       </div>
-      <img src="/horario.png" alt="24h" className="h-50 w-50 absolute left-60 bottom-[-2550px]"/>
+      <Image src="/horario.png" alt="24h" className="h-50 w-50 absolute left-60 bottom-[-2550px]"/>
     </div>
   );
 };

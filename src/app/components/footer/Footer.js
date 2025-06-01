@@ -1,8 +1,10 @@
+import Image from 'next/image';
+
 const Footer = () => {
   return (
     <footer className="bg-[#204659] text-white py-4 border-t-1 border-white">
       <div className="flex items-center gap-60 text-2xl font-bold text-[#CF9645] pl-25 pb-10 pt-10">
-        <img
+        <Image
           src="/logo_escritorio_lenin.png"
           alt="Logo"
           className="h-35 w-33"
@@ -34,7 +36,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="inline-block"
             >
-              <img
+              <Image
                 src="/imagem_wpp.png" // coloque o ícone do WhatsApp na pasta public
                 alt="WhatsApp"
                 className="w-16 h-16 flex items-center justify-center rounded-full bg-[#CF9645] border-2 border-white"
@@ -46,7 +48,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="inline-block"
             >
-              <img
+              <Image
                 src="/imagen_insta.png" // coloque o ícone do WhatsApp na pasta public
                 alt="WhatsApp"
                 className="w-16 h-16 flex items-center justify-center rounded-full bg-[#CF9645] border-2 border-white"
@@ -58,7 +60,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="inline-block"
             >
-              <img
+              <Image
                 src="/imagem_email.png" // coloque o ícone do WhatsApp na pasta public
                 alt="WhatsApp"
                 className="w-16 h-16 flex items-center justify-center rounded-full bg-[#CF9645] border-2 border-white"
