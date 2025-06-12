@@ -1,23 +1,18 @@
 backend:
-  name: github
-  repo: JoaoTReis/landing-page-lenin
-  base_url: https://www.lfadvocacia.net/
-  auth_endpoint: api/auth/
+  name: git-gateway
+  branch: main
 
-media_folder: public/assets/img
-public_folder: /assets/img
-
-publish_mode: editorial_workflow
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
-  - name: posts
-    label: Artigos
-    folder: posts
+  - name: "artigos"
+    label: "Artigos"
+    folder: "content/artigos"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
-      - { label: 'Link do Artigo', name: 'link', widget: 'string' }
-      - { label: 'Data de Publicação', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD hh:mm:ss' }
-      - { label: 'Categoria', name: 'categoria', widget: 'select', options: ['direito civil', 'direito penal', 'direito trabalhista'] }
-      - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Conteúdo', name: 'body', widget: 'markdown' }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Descrição", name: "description", widget: "text" }

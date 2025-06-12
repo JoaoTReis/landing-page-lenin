@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const aprensetacaoPagina = () => {
   return (
     <div className="flex flex-col pl-20 pt-30 pb-20 bg-[#204659] gap-10">
@@ -24,7 +22,7 @@ const aprensetacaoPagina = () => {
           rel="noopener noreferrer"
           className="flex py-1 w-full justify-center"
         >
-          <Image
+          <img
             src="/imagem_wpp.png"
             alt="WhatsApp"
             className="flex w-8 h-8"
