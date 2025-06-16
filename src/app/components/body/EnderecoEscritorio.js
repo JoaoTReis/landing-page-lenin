@@ -16,7 +16,7 @@ const EnderecoEscritorio = () => {
       >
         {!hover ? (
           <img
-            src="/imagem_escritorio.png"
+            src="/imagem_escritorio.webp"
             alt="Foto do Escritório"
             className="w-full h-full object-cover"
           />

@@ -3,7 +3,7 @@ const Header = () => {
     <header className="flex items-center gap-150 p-4 bg-[#204659] text-white border-b-[1px]">
       <div className="flex items-center text-2xl font-bold text-black pl-4 gap-2">
         <img
-          src="/logo_escritorio_lenin.png"
+          src="/logo_escritorio_lenin.webp"
           alt="Logo"
           className="h-18 w-18"
         />

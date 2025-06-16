@@ -23,7 +23,7 @@ const aprensetacaoPagina = () => {
           className="flex py-1 w-full justify-center"
         >
           <img
-            src="/imagem_wpp.png"
+            src="/imagem_wpp.webp"
             alt="WhatsApp"
             className="flex w-8 h-8"
           />

@@ -4,25 +4,25 @@ const Servicos_criminal = () => {
   return (
     <div className=" relative grid grid-rows-4 p-5 gap-10 bg-[#204659] justify-center ">
       <img
-        src="/imagem_fundo_algema_martelo.png"
+        src="/imagem_fundo_algema_martelo.webp"
         alt="24h"
         className="absolute left-[-400px] bottom-[-300px] rotate-[150deg] z-0"
       />
       <img
-        src="/imagem_lenin_servico_criminal.png"
+        src="/imagem_lenin_servico_criminal.webp"
         alt="24h"
         className="absolute right-[-0px] bottom-0 h-250 z-0"
       />
       <div className="flex justify-center">
         <img
-          src="/horario.png"
+          src="/horario.webp"
           alt="24h"
           className="h-50 w-50 absolute left-20 top-15"
         />
         <div className="flex flex-col pt-12">
           <div className="flex justify-center">
             <img
-              src="/logo_escritorio_lenin.png"
+              src="/logo_escritorio_lenin.webp"
               alt="logo"
               className="flex w-30 h-30"
             />
@@ -36,102 +36,113 @@ const Servicos_criminal = () => {
       <div className="flex gap-20">
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_1.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_1.webp"
           imgAlt="imagem_prev"
           titulo="Acompanhamento de inquérito policial"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
           onClick={() => (window.location.href = "https:google.com")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_2.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_2.webp"
           imgAlt="imagem_prev"
           titulo="Defesa em Ação Penal"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_3.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_3.webp"
           imgAlt="imagem_prev"
           titulo="Acompanhamento em audiências"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
       </div>
       <div className="flex gap-20">
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_4.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_4.webp"
           imgAlt="imagem_prev"
           titulo="Execução Penal"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_5.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_5.webp"
           imgAlt="imagem_prev"
           titulo="Habeas Corpus"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_6.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_6.webp"
           imgAlt="imagem_prev"
           titulo="Recursos"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
       </div>
       <div className="flex gap-20">
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_7.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_7.webp"
           imgAlt="imagem_prev"
           titulo="Crimes contra a vida"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_8.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_8.webp"
           imgAlt="imagem_prev"
           titulo="Crimes contra o patrimônio"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_9.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_9.webp"
           imgAlt="imagem_prev"
           titulo="Crimes Econômicos e
  Financeiros"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
       </div>
       <div className="flex gap-20">
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagens_criminal/servicos_criminal_imagem_10.png"
+          imgSrc="/imagens_criminal/servicos_criminal_imagem_10.webp"
           imgAlt="imagem_prev"
           titulo="Crimes Econômicos e
  Financeiros"
-          className="w-80 h-60"
+          tituloClassName="text-2xl"
+          className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
           onClick={() => setAreaSelecionada("previdenciario")}
-          imgSrc="/imagem_wpp.png"
+          imgSrc="/imagem_wpp.webp"
           imgAlt="imagem_prev"
           titulo="Não encontrou o que buscava? Entre em contato e tenha um atendimento personalizado."
-          className="flex w-120 h-60"
+          tituloClassName="text-2xl"
+          className="w-100 h-60"
           imgClassName="w-25 h-25 object-contain"
         />
         <img
-          src="/horario.png"
+          src="/horario.webp"
           alt="24h"
           className="h-50 w-50 absolute right-90 bottom-10"
         />
