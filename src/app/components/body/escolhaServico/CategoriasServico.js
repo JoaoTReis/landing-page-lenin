@@ -101,7 +101,7 @@ const CategoriasServico = () => {
                 <img
                   src="/moldura.webp"
                   alt="moldura"
-                  className="h-52 w-52 absolute top-[-80px] left-[10px] z-20 max-lg:absolute max-lg:h-20 max-lg:w-20 max-lg:top-40 max-lg:left-42"
+                  className="h-52 w-52 absolute top-[-80px] left-[10px] z-20 max-lg:absolute max-lg:h-20 max-lg:w-20 max-lg:top-40 max-lg:left-38"
                 />
                 <h1
                   className="text-4xl font-bold text-white pl-4 max-lg:text-2xl max-lg:pl-0"
