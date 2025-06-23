@@ -83,7 +83,7 @@ const CategoriasServico = () => {
             variants={variants}
             className="flex flex-col items-center gap-10 text-4xl text-white w-full max-lg:gap-6 max-lg:text-2xl"
           >
-            <div className="flex pl-50 items-center gap-50 w-full pt-30 max-lg:flex-col max-lg:pl-0 max-lg:gap-6 max-lg:pt-6">
+            <div className="flex pl-50 items-center gap-80 w-full pt-30 max-lg:flex-col max-lg:pl-0 max-lg:gap-6 max-lg:pt-6">
               <div className="flex flex-col items-center gap-2">
                 <img
                   src="/logo_escritorio_lenin.webp"
