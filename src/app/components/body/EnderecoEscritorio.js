@@ -6,16 +6,21 @@ const EnderecoEscritorio = () => {
   const [hover, setHover] = useState(false);
 
   return (
-    <div className="flex flex-col items-center py-10 bg-[#204659]">
+    <div className="flex flex-col items-center py-10 bg-[#204659] max-lg:py-6">
       <h2
-        className="text-3xl text-white mb-4"
+        className="text-3xl text-white mb-4 max-lg:text-xl"
         style={{ fontFamily: "'Girassol', cursive" }}
       >
         Nosso Local
       </h2>
       <div
-        className="rounded-xl shadow-lg overflow-hidden relative"
-        style={{ width: 600, height: 450, cursor: "pointer" }}
+        className="rounded-xl shadow-lg overflow-hidden relative max-lg:w-full"
+        style={{
+          width: "600px",
+          height: "450px",
+          cursor: "pointer",
+          maxWidth: "100%",
+        }}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >
@@ -25,7 +30,7 @@ const EnderecoEscritorio = () => {
           alt="Foto do Escritório"
           className={`w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-200 ${
             hover ? "opacity-0" : "opacity-100"
-          }`}
+          } max-lg:static`}
           style={{ zIndex: 1 }}
         />
         {/* Iframe do Google Maps */}
@@ -42,14 +47,19 @@ const EnderecoEscritorio = () => {
             opacity: hover ? 1 : 0,
             pointerEvents: hover ? "auto" : "none",
             transition: "opacity 0.2s",
+            width: "100%",
+            height: "100%",
+            maxWidth: "100%",
           }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <p className="text-white mt-4"
-      style={{ fontFamily: "'EB Garamond', serif" }}>
+      <p
+        className="text-white mt-4 max-lg:text-base max-lg:text-center max-lg:px-2"
+        style={{ fontFamily: "'EB Garamond', serif" }}
+      >
         R. Gonçalves Chaves, 960 - Centro, Pelotas
       </p>
     </div>

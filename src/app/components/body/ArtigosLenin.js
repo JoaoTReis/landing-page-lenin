@@ -4,11 +4,11 @@ import { AiFillTag } from "react-icons/ai";
 
 const ArtigosLenin = () => {
   return (
-    <div id="artigos" className="flex flex-col p-20 bg-[#D9D9D9] gap-10">
-      <div className="flex justify-center w-full text-black text-4xl">
+    <div id="artigos" className="flex flex-col p-20 bg-[#D9D9D9] gap-10 max-lg:p-4 max-lg:gap-6">
+      <div className="flex justify-center w-full text-black text-4xl max-lg:text-2xl">
         <h1 style={{ fontFamily: "'Girassol', cursive" }}>Artigos Recentes</h1>
       </div>
-      <div className="flex items-center justify-start w-full text-black text-2xl gap-20 pl-30">
+      <div className="flex items-center justify-start w-full text-black text-2xl gap-20 pl-30 max-lg:flex-col max-lg:gap-4 max-lg:pl-0 max-lg:text-base">
         <div className="flex gap-3 items-center">
           <IoIosPaper />
           <a
