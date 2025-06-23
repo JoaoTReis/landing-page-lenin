@@ -1,8 +1,9 @@
 import BotaoServico from "../../componentesPadroes/BotaoServico";
 
-const Servicos_criminal = () => {
+
+const Servicos_criminal = ({ onPrev, onNext }) => {
   return (
-    <div className=" relative grid grid-rows-4 p-5 gap-10 bg-[#204659] justify-center ">
+    <div className="relative grid grid-rows-4 p-5 gap-10 bg-[#204659] justify-center ">
       <img
         src="/imagem_fundo_algema_martelo.webp"
         alt="24h"
@@ -35,7 +36,10 @@ const Servicos_criminal = () => {
       </div>
       <div className="flex gap-20">
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Preciso%20de%20ajuda%20jur%C3%ADdica%20com%20o%20acompanhamento%20de%20um%20inqu%C3%A9rito%20policial.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_1.webp"
           imgAlt="imagem_prev"
           titulo="Acompanhamento de inquérito policial"
@@ -44,7 +48,10 @@ const Servicos_criminal = () => {
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
-          onClick={() => (window.location.href = "https:google.com")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Estou%20respondendo%20a%20uma%20a%C3%A7%C3%A3o%20penal%20e%20preciso%20de%20ajuda%20jur%C3%ADdica.%20Pode%20me%20orientar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_2.webp"
           imgAlt="imagem_prev"
           titulo="Defesa em Ação Penal"
@@ -53,7 +60,10 @@ const Servicos_criminal = () => {
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Preciso%20de%20um%20advogado%20para%20me%20acompanhar%20em%20uma%20audi%C3%AAncia.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_3.webp"
           imgAlt="imagem_prev"
           titulo="Acompanhamento em audiências"
@@ -64,7 +74,10 @@ const Servicos_criminal = () => {
       </div>
       <div className="flex gap-20">
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Gostaria%20de%20ajuda%20jur%C3%ADdica%20na%20%C3%A1rea%20de%20execu%C3%A7%C3%A3o%20penal.%20Pode%20me%20orientar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_4.webp"
           imgAlt="imagem_prev"
           titulo="Execução Penal"
@@ -73,7 +86,10 @@ const Servicos_criminal = () => {
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Preciso%20de%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica%20urgente%20sobre%20Habeas%20Corpus.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_5.webp"
           imgAlt="imagem_prev"
           titulo="Habeas Corpus"
@@ -82,7 +98,10 @@ const Servicos_criminal = () => {
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Tenho%20interesse%20em%20interpor%20um%20recurso%20e%20preciso%20de%20ajuda%20jur%C3%ADdica.%20Pode%20me%20orientar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_6.webp"
           imgAlt="imagem_prev"
           titulo="Recursos"
@@ -93,7 +112,10 @@ const Servicos_criminal = () => {
       </div>
       <div className="flex gap-20">
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Preciso%20de%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica%20em%20um%20caso%20envolvendo%20crime%20contra%20a%20vida.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_7.webp"
           imgAlt="imagem_prev"
           titulo="Crimes contra a vida"
@@ -102,7 +124,10 @@ const Servicos_criminal = () => {
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Preciso%20de%20ajuda%20em%20um%20caso%20relacionado%20a%20crime%20contra%20o%20patrim%C3%B4nio.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_8.webp"
           imgAlt="imagem_prev"
           titulo="Crimes contra o patrimônio"
@@ -111,7 +136,10 @@ const Servicos_criminal = () => {
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20quest%C3%B5es%20jur%C3%ADdicas%20envolvendo%20crimes%20econ%C3%B4micos%20ou%20financeiros.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_9.webp"
           imgAlt="imagem_prev"
           titulo="Crimes Econômicos e
@@ -123,17 +151,22 @@ const Servicos_criminal = () => {
       </div>
       <div className="flex gap-20">
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20Preciso%20de%20ajuda%20jur%C3%ADdica%20em%20um%20caso%20envolvendo%20tr%C3%A1fico%20de%20drogas.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagens_criminal/servicos_criminal_imagem_10.webp"
           imgAlt="imagem_prev"
-          titulo="Crimes Econômicos e
- Financeiros"
+          titulo="Tráfico de Drogas"
           tituloClassName="text-2xl"
           className="w-65 h-60"
           imgClassName="w-50 h-30 object-contain"
         />
         <BotaoServico
-          onClick={() => setAreaSelecionada("previdenciario")}
+          onClick={() => window.open(
+                  "https://wa.me/5553999258618?text=Ol%C3%A1!%20N%C3%A3o%20encontrei%20o%20que%20estava%20procurando%20no%20site%20e%20preciso%20de%20ajuda%20com%20um%20problema%20jur%C3%ADdico.%20Pode%20me%20ajudar%3F",
+                  "_blank"
+                )}
           imgSrc="/imagem_wpp.webp"
           imgAlt="imagem_prev"
           titulo="Não encontrou o que buscava? Entre em contato e tenha um atendimento personalizado."

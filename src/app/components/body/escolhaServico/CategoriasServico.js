@@ -6,6 +6,8 @@ import Servicos_prev from "./Servico_Prev";
 import Servicos_Outros from "./Servicos_Outros";
 
 const CategoriasServico = () => {
+  const areas = ["previdenciario", "outros", "criminal"];
+
   const [areaSelecionada, setAreaSelecionada] = useState(null);
   const [showContent, setShowContent] = useState(true);
 
@@ -26,6 +28,20 @@ const CategoriasServico = () => {
     }, 500); // tempo igual ao duration da animação
   };
 
+  const handlePrev = () => {
+    if (areaSelecionada) {
+      const idx = areas.indexOf(areaSelecionada);
+      setAreaSelecionada(areas[(idx - 1 + areas.length) % areas.length]);
+    }
+  };
+
+  const handleNext = () => {
+    if (areaSelecionada) {
+      const idx = areas.indexOf(areaSelecionada);
+      setAreaSelecionada(areas[(idx + 1) % areas.length]);
+    }
+  };
+
   return (
     <div
       id="servicos"
@@ -37,6 +53,26 @@ const CategoriasServico = () => {
         className="h-50 w-50 absolute left-60 bottom-40"
       />
 
+      {/* Botões de navegação aparecem só quando uma área está selecionada */}
+      {areaSelecionada && (
+        <>
+          <button
+            onClick={handlePrev}
+            className="absolute left-2 top-1/2 z-20 bg-yellow-400 rounded-full p-2 shadow"
+            aria-label="Anterior"
+          >
+            {"<"}
+          </button>
+          <button
+            onClick={handleNext}
+            className="absolute right-2 top-1/2 z-20 bg-yellow-400 rounded-full p-2 shadow"
+            aria-label="Próximo"
+          >
+            {">"}
+          </button>
+        </>
+      )}
+
       <AnimatePresence mode="wait">
         {showContent && !areaSelecionada && (
           <motion.div
@@ -47,14 +83,17 @@ const CategoriasServico = () => {
             variants={variants}
             className="flex flex-col items-center gap-10 text-4xl text-white w-full"
           >
-            <div className="flex pl-64 items-center gap-50 w-full pt-30">
+            <div className="flex pl-50 items-center gap-50 w-full pt-30">
               <div className="flex flex-col items-center gap-2">
                 <img
                   src="/logo_escritorio_lenin.webp"
                   alt="logo"
                   className="flex h-29 w-28"
                 />
-                <h1 className="text-4xl font-bold text-white pl-4">
+                <h1
+                  className="text-4xl font-bold text-white pl-4"
+                  style={{ fontFamily: "'EB Garamond', serif" }}
+                >
                   Filippini Advocacia <br /> OAB RS/127.882
                 </h1>
               </div>
@@ -64,10 +103,17 @@ const CategoriasServico = () => {
                   alt="moldura"
                   className="h-52 w-52 absolute top-[-80px] left-[10px] z-20"
                 />
-                <h1 className="text-4xl font-bold text-white pl-4">Serviços</h1>
+                <h1
+                  className="text-4xl font-bold text-white pl-4"
+                  style={{ fontFamily: "'Girassol', cursive" }}
+                >
+                  Serviços
+                </h1>
               </div>
             </div>
-            <h1>Em qual área você precisa de ajuda jurídica hoje?</h1>
+            <h1 style={{ fontFamily: "'EB Garamond', serif" }}>
+              Em qual área você precisa de ajuda jurídica hoje?
+            </h1>
             <div className="flex gap-10">
               <button
                 type="button"
@@ -79,8 +125,10 @@ const CategoriasServico = () => {
                   alt="imagem_prev"
                   className="flex w-32 h-32"
                 />
-                <h1 className="text-3xl font-sans">Direito Previdenciário</h1>
-                <p className="text-2xl">
+                <h1 className="text-3xl font-sans"
+                style={{ fontFamily: "'EB Garamond', serif" }}>Direito Previdenciário</h1>
+                <p className="text-2xl"
+                style={{ fontFamily: "'EB Garamond', serif" }}>
                   Aposentadorias
                   <br /> revisões de benefício
                   <br /> auxílios
@@ -96,8 +144,13 @@ const CategoriasServico = () => {
                   alt="imagem_prev"
                   className="flex w-32 h-32"
                 />
-                <h1 className="text-3xl font-sans">Outros ramo do direito</h1>
-                <p className="text-2xl">Outros ramo do direito</p>
+                <h1 className="text-3xl font-sans"
+                style={{ fontFamily: "'EB Garamond', serif" }}>Outros ramo do direito</h1>
+                <p className="text-2xl"
+                style={{ fontFamily: "'EB Garamond', serif" }}>
+                  Familia e Sucessões <br /> Direito do Consumidor
+                  <br /> Direito dos Pets
+                </p>
               </button>
               <button
                 type="button"
@@ -109,8 +162,10 @@ const CategoriasServico = () => {
                   alt="imagem_prev"
                   className="flex w-32 h-32"
                 />
-                <h1 className="text-3xl font-sans">Advocacia Criminal</h1>
-                <p className="text-2xl">
+                <h1 className="text-3xl font-sans"
+                style={{ fontFamily: "'EB Garamond', serif" }}>Advocacia Criminal</h1>
+                <p className="text-2xl"
+                style={{ fontFamily: "'EB Garamond', serif" }}>
                   Defesa em processos
                   <br /> inquéritos
                   <br /> habeas corpus
@@ -120,7 +175,8 @@ const CategoriasServico = () => {
             <div className="flex flex-col justify-center pt-20 gap-5">
               <div className="flex items-center gap-4">
                 <span className=" w-1 h-36 bg-[#CF9645] rounded"></span>
-                <h1 className="text-5xl text-left">
+                <h1 className="text-5xl text-left"
+                style={{ fontFamily: "'Girassol', cursive" }}>
                   Defendemos o que é seu por direito,
                   <br /> com seriedade e excelência.
                 </h1>

@@ -2,10 +2,11 @@ const ApresentacaoLenin = () => {
   return (
     <div id="historia" className="flex flex-col pt-20 px-20 pb-20 bg-[#D9D9D9] gap-5 text-black">
       <div className="text-4xl font-bold text-black">
-        <h1>Filippini Advocacia – Excelência em Direito Previdenciário</h1>
+        <h1  style={{ fontFamily: "'Girassol', cursive" }}>Filippini Advocacia – Excelência em Direito Previdenciário</h1>
       </div>
       <div>
-        <p className="flex text-[30px] text-black max-w-5xl">
+        <p className="flex text-[30px] text-black max-w-5xl"
+        style={{ fontFamily: "'Balthazar', serif" }}>
           No Filippini Advocacia, atuamos com dedicação e profundo conhecimento
           técnico para garantir que nossos clientes tenham acesso aos seus
           direitos previdenciários de forma segura, rápida e eficaz. Sabemos que
@@ -30,6 +31,7 @@ const ApresentacaoLenin = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="flex py-1 w-full justify-center text-white"
+          style={{ fontFamily: "'EB Garamond', serif" }}
         >
           Entre em contato
         </a>

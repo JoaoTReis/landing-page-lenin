@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <>
       <Header/>
+      <CategoriasServico/>
       <ApresentacaoPagina/>
       <ApresentacaoLenin/>
-      <CategoriasServico/>
       <ArtigosLenin/>
       <EnderecoEscritorio />
       <Footer/>

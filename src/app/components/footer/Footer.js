@@ -1,3 +1,5 @@
+import { FaInstagram } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="bg-[#204659] text-white py-4 border-t-1 border-white">
@@ -8,25 +10,41 @@ const Footer = () => {
           className="h-35 w-33"
         />
         <div>
-          <h3>Serviços Ofertados</h3>
+          <h3 style={{ fontFamily: "'Girassol', cursive" }}>
+            Serviços Ofertados
+          </h3>
           <nav>
             <ul className="flex flex-col text-white text-base">
               <li>
-                <a href="#home" className="">
+                <a
+                  href="#servicos"
+                  className=""
+                  style={{ fontFamily: "'EB Garamond', serif" }}
+                >
                   Criminal
                 </a>
               </li>
               <li>
-                <a href="#about">Previdenciário</a>
+                <a
+                  href="#servicos"
+                  style={{ fontFamily: "'EB Garamond', serif" }}
+                >
+                  Previdenciário
+                </a>
               </li>
               <li>
-                <a href="#services">Outros ramos do Direito</a>
+                <a
+                  href="#servicos"
+                  style={{ fontFamily: "'EB Garamond', serif" }}
+                >
+                  Outros ramos do Direito
+                </a>
               </li>
             </ul>
           </nav>
         </div>
         <div>
-          <h3>Entre em Contato</h3>
+          <h3 style={{ fontFamily: "'Girassol', cursive" }}>Entre em Contato</h3>
           <div className="flex gap-10">
             <a
               href=""
