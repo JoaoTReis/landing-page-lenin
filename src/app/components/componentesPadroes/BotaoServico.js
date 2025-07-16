@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const BotaoServico = ({
   onClick,
@@ -15,7 +16,7 @@ const BotaoServico = ({
     onClick={onClick}
   >
     <h1 className={`text-white font-sans ${tituloClassName}`}>{titulo}</h1>
-    <img src={imgSrc} alt={imgAlt} className={`flex ${imgClassName}`} />
+    <Image src={imgSrc} alt={imgAlt} className={`flex ${imgClassName}`} />
   </button>
 );
 
