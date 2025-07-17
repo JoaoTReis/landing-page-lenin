@@ -4,8 +4,8 @@ const ApresentacaoLenin = () => {
       id="historia"
       className="flex flex-col pt-20 px-20 pb-20 bg-[#D9D9D9] gap-5 text-black max-lg:pt-8 max-lg:px-4 max-lg:pb-8 max-lg:gap-4"
     >
-      <div className="text-4xl font-bold text-black max-lg:text-2xl">
-        <h1 style={{ fontFamily: "'Girassol', cursive" }}>
+      <div className="text-4xl font-bold font-girassol text-black max-lg:text-2xl">
+        <h1 >
           Filippini Advocacia – Excelência em Direito Previdenciário
         </h1>
       </div>

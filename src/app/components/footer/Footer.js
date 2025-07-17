@@ -9,8 +9,8 @@ const Footer = () => {
           alt="Logo"
           className="h-35 w-33 max-lg:h-20 max-lg:w-20"
         />
-        <div className="max-lg:text-center">
-          <h3 style={{ fontFamily: "'Girassol', cursive" }}>
+        <div className="max-lg:text-center font-girassol">
+          <h3 >
             Serviços Ofertados
           </h3>
           <nav>
@@ -43,8 +43,8 @@ const Footer = () => {
             </ul>
           </nav>
         </div>
-        <div className="max-lg:text-center">
-          <h3 style={{ fontFamily: "'Girassol', cursive" }}>Entre em Contato</h3>
+        <div className="max-lg:text-center font-girassol">
+          <h3 >Entre em Contato</h3>
           <div className="flex gap-10 max-lg:justify-center max-lg:gap-4">
             <a
               href=""
