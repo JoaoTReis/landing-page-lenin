@@ -178,8 +178,7 @@ const CategoriasServico = () => {
             <div className="flex flex-col justify-center pt-20 gap-5 max-lg:pt-6">
               <div className="flex items-center gap-4 max-lg:flex max-lg:gap-2">
                 <span className="w-1 h-36 bg-[#CF9645] rounded max-lg:h-8 max-lg:w-1" />
-                <h1 className="text-5xl text-left max-lg:text-xl max-lg:text-center"
-                style={{ fontFamily: "'Girassol', cursive" }}>
+                <h1 className="text-5xl text-left font-girassol max-lg:text-xl max-lg:text-center">
                   Defendemos o que é seu por direito,
                   <br /> com seriedade e excelência.
                 </h1>
