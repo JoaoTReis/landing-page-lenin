@@ -11,8 +11,7 @@ const ApresentacaoLenin = () => {
       </div>
       <div>
         <p
-          className="flex text-[30px] text-black max-w-5xl max-lg:text-lg max-lg:max-w-full"
-          style={{ fontFamily: "'Balthazar', serif" }}
+          className="flex text-[30px] font-balthazar text-black max-w-5xl max-lg:text-lg max-lg:max-w-full"
         >
           No Filippini Advocacia, atuamos com dedicação e profundo conhecimento
           técnico para garantir que nossos clientes tenham acesso aos seus
@@ -37,8 +36,7 @@ const ApresentacaoLenin = () => {
             href=""
             target="_blank"
             rel="noopener noreferrer"
-            className="flex py-1 w-full justify-center text-white"
-            style={{ fontFamily: "'EB Garamond', serif" }}
+            className="flex py-1 w-full font-ebgaramond justify-center text-white"
           >
             Entre em contato
           </a>

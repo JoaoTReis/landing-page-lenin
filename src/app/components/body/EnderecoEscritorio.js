@@ -8,8 +8,7 @@ const EnderecoEscritorio = () => {
   return (
     <div className="flex flex-col items-center py-10 bg-[#204659] max-lg:py-6">
       <h2
-        className="text-3xl text-white mb-4 max-lg:text-xl"
-        style={{ fontFamily: "'Girassol', cursive" }}
+        className="text-3xl font-girassol text-white mb-4 max-lg:text-xl"
       >
         Nosso Local
       </h2>
@@ -57,8 +56,7 @@ const EnderecoEscritorio = () => {
         ></iframe>
       </div>
       <p
-        className="text-white mt-4 max-lg:text-base max-lg:text-center max-lg:px-2"
-        style={{ fontFamily: "'EB Garamond', serif" }}
+        className="text-white font-ebgaramond mt-4 max-lg:text-base max-lg:text-center max-lg:px-2"
       >
         R. Gonçalves Chaves, 960 - Centro, Pelotas
       </p>

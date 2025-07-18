@@ -18,24 +18,21 @@ const Footer = () => {
               <li>
                 <a
                   href="#servicos"
-                  className=""
-                  style={{ fontFamily: "'EB Garamond', serif" }}
+                  className="font-ebgaramond"
                 >
                   Criminal
                 </a>
               </li>
               <li>
                 <a
-                  href="#servicos"
-                  style={{ fontFamily: "'EB Garamond', serif" }}
+                  href="#servicos" className="font-ebgaramond"
                 >
                   Previdenciário
                 </a>
               </li>
               <li>
                 <a
-                  href="#servicos"
-                  style={{ fontFamily: "'EB Garamond', serif" }}
+                  href="#servicos" className="font-ebgaramond"
                 >
                   Outros ramos do Direito
                 </a>

@@ -4,15 +4,13 @@ const aprensetacaoPagina = () => {
   return (
     <div className="flex flex-col pl-20 pt-30 pb-20 bg-[#204659] gap-10 border-t-1 border-white max-lg:pl-4 max-lg:pt-10 max-lg:pb-8 max-lg:gap-6">
       <h1
-        className="text-4xl font-bold text-white max-lg:text-2xl max-lg:pl-4"
-        style={{ fontFamily: "'Girassol', cursive" }}
+        className="text-4xl font-bold font-girassol text-white max-lg:text-2xl max-lg:pl-4"
       >
         Bem Vindo ao <span className="text-[#CF9645]">Filippini</span>{" "}
         <span className="text-[#CF9645]">Advocacia</span>
       </h1>
       <p
-        className="flex text-[30px] text-white max-w-3xl max-lg:text-lg max-lg:max-w-full max-lg:px-4"
-        style={{ fontFamily: "'Balthazar', serif" }}
+        className="flex text-[30px] font-balthazar text-white max-w-3xl max-lg:text-lg max-lg:max-w-full max-lg:px-4"
       >
         Seja bem-vindo ao nosso site! Atuamos com excelência nas mais diversas
         áreas do Direito, sempre buscando a melhor solução para cada caso. Nosso

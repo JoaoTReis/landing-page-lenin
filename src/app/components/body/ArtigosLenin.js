@@ -15,8 +15,7 @@ const ArtigosLenin = () => {
             href="https://www.jusbrasil.com.br/artigos/entendendo-a-importancia-da-pericia-no-processo-penal/2165507970?_gl=1*1eucd28*_gcl_aw*R0NMLjE3NDQxMzQyNTYuQ2p3S0NBandrdE9fQmhCckVpd0FWNzBqWGh5U1pGemdxYlNzNVhJZDFpWXNzWGx1cEZMUC1ldlFTQVo2dk9Wcks2Zi1pRkJNRURVNnlob0NtLWtRQXZEX0J3RQ..*_gcl_au*MTg4Mzk4OTc2OC4xNzQ0MTMzMzA4LjU0Mjk3NTgyLjE3NDc2NjU4OTguMTc0NzY2NTg5Nw..*_ga*Njg1MjUwNjkzLjE3Mjc3OTM5NjM.*_ga_QCSXBQ8XPZ*czE3NDc2NzkxNzgkbzIwOCRnMSR0MTc0NzY3OTE5MyRqNDUkbDAkaDAkZG5ySDM3eDVtRmg4azE0bmFab0U2WHZNMV9MeTRMa2haTlE"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-black underline"
-            style={{ fontFamily: "'Balthazar', serif" }}
+            className=" font-balthazar text-black underline"
           >
             Entendendo a Importância da Perícia no Processo Penal
           </a>

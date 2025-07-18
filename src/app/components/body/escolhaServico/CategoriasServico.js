@@ -91,8 +91,7 @@ const CategoriasServico = () => {
                   className="flex h-29 w-28 max-lg:h-16 max-lg:w-16"
                 />
                 <h1
-                  className="text-4xl font-bold text-white pl-4 max-lg:text-2xl max-lg:pl-0"
-                  style={{ fontFamily: "'EB Garamond', serif" }}
+                  className="text-4xl font-bold font-ebgaramond text-white pl-4 max-lg:text-2xl max-lg:pl-0"
                 >
                   Filippini Advocacia <br /> OAB RS/127.882
                 </h1>
@@ -104,16 +103,14 @@ const CategoriasServico = () => {
                   className="h-52 w-52 absolute top-[-80px] left-[10px] z-20 max-lg:absolute max-lg:h-20 max-lg:w-20 max-lg:top-40 max-lg:left-38"
                 />
                 <h1
-                  className="text-4xl font-bold text-white pl-4 max-lg:text-2xl max-lg:pl-0"
-                  style={{ fontFamily: "'Girassol', cursive" }}
+                  className="text-4xl font-bold font-girassol text-white pl-4 max-lg:text-2xl max-lg:pl-0"
                 >
                   Serviços
                 </h1>
               </div>
             </div>
             <h1
-              style={{ fontFamily: "'EB Garamond', serif" }}
-              className="max-lg:text-xl max-lg:w-3/5 max-lg:justify-center"
+              className="font-ebgaramond max-lg:text-xl max-lg:w-3/5 max-lg:justify-center"
             >
               Em qual área você precisa de ajuda jurídica hoje?
             </h1>
@@ -128,10 +125,8 @@ const CategoriasServico = () => {
                   alt="imagem_prev"
                   className="flex w-32 h-32 max-lg:w-16 max-lg:h-16"
                 />
-                <h1 className="text-3xl font-sans max-lg:text-lg"
-                style={{ fontFamily: "'EB Garamond', serif" }}>Direito Previdenciário</h1>
-                <p className="text-2xl max-lg:text-base"
-                style={{ fontFamily: "'EB Garamond', serif" }}>
+                <h1 className="text-3xl font-sans font-ebgaramond max-lg:text-lg">Direito Previdenciário</h1>
+                <p className="text-2xl font-ebgaramond max-lg:text-base">
                   Aposentadorias
                   <br /> revisões de benefício
                   <br /> auxílios
@@ -147,10 +142,8 @@ const CategoriasServico = () => {
                   alt="imagem_prev"
                   className="flex w-32 h-32 max-lg:w-16 max-lg:h-16"
                 />
-                <h1 className="text-3xl font-sans max-lg:text-lg"
-                style={{ fontFamily: "'EB Garamond', serif" }}>Outros ramo do direito</h1>
-                <p className="text-2xl max-lg:text-base"
-                style={{ fontFamily: "'EB Garamond', serif" }}>
+                <h1 className="text-3xl font-sans font-ebgaramond max-lg:text-lg">Outros ramo do direito</h1>
+                <p className="text-2xl font-ebgaramond max-lg:text-base">
                   Familia e Sucessões <br /> Direito do Consumidor
                   <br /> Direito dos Pets
                 </p>
@@ -165,10 +158,8 @@ const CategoriasServico = () => {
                   alt="imagem_prev"
                   className="flex w-32 h-32 max-lg:w-16 max-lg:h-16"
                 />
-                <h1 className="text-3xl font-sans max-lg:text-lg"
-                style={{ fontFamily: "'EB Garamond', serif" }}>Advocacia Criminal</h1>
-                <p className="text-2xl max-lg:text-base"
-                style={{ fontFamily: "'EB Garamond', serif" }}>
+                <h1 className="text-3xl font-sans font-ebgaramond max-lg:text-lg">Advocacia Criminal</h1>
+                <p className="text-2xl font-ebgaramond max-lg:text-base">
                   Defesa em processos
                   <br /> inquéritos
                   <br /> habeas corpus

@@ -19,14 +19,12 @@ const Header = () => {
           />
           <div className="max-lg:text-center">
             <span
-              className="text-white"
-              style={{ fontFamily: "'Girassol', cursive" }}
+              className="text-white font-girassol"
             >
               Filippini Advocacia
             </span>
             <h6
-              className="text-sm text-white text-center"
-              style={{ fontFamily: "'Girassol', cursive" }}
+              className="text-sm text-white text-center font-girassol"
             >
               OAB 127.882
             </h6>
@@ -35,10 +33,7 @@ const Header = () => {
         <nav className="max-lg:w-full">
           <ul className="flex gap-4 pr-12 text-3xl text-[#CF9645] max-lg:justify-center max-lg:pr-0 max-lg:text-lg max-lg:flex-wrap">
             <li>
-              <a
-                href="#servicos"
-                style={{ fontFamily: "'EB Garamond', serif" }}
-              >
+              <a href="#servicos" className="font-ebgaramond">
                 Serviços
               </a>
             </li>
@@ -49,14 +44,15 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="https://wa.me/5553999258618?text=oi%20preciso%20de%20um%20auxilio%20de%20um%20advogado!!"
-                style={{ fontFamily: "'EB Garamond', serif" }}
+                href="https://wa.me/5553999258618?text=oi%20preciso%20de%20um%20auxilio%20de%20um%20advogado!!" className="font-ebgaramond"
               >
                 Contato
               </a>
             </li>
             <li>
-              <a href="#historia" style={{ fontFamily: "'EB Garamond', serif" }}>
+              <a
+                href="#historia" className="font-ebgaramond"
+              >
                 Historia do escritório
               </a>
             </li>
