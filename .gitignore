@@ -1,0 +1,36 @@
+cat <<EOF > .gitignore
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+
+# Next.js
+.next/
+out/
+build/
+
+# Env
+.env*
+!.env.example
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# Backend Java
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+mvnw
+mvnw.cmd
+EOF
+
