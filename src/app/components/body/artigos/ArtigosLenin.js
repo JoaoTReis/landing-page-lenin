@@ -9,7 +9,7 @@ export default function ArtigosLenin() {
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch("https://seu-backend-render.onrender.com/api/artigos");
+        const res = await fetch("https://lading-page-lenin-backend.onrender.com/api/artigos");
         const data = await res.json();
         setArtigos(data);
       } catch (e) {
